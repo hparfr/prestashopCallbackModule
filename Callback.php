@@ -65,7 +65,7 @@ class Callback extends Module {
 			'input' => array(
 				array(
 					'type' => 'text',
-					'label' => $this->l('Configuration value'),
+					'label' => $this->l('Callback Url'),
 					'name' => 'callback_url',
 					'required' => true
 				)

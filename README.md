@@ -13,6 +13,15 @@ Requirements
 - Tested against Prestashop 1.6.*
 
 
+Installation
+====
+
+	cd prestashop
+	git submodule add https://github.com/hparfr/prestashopCallbackModule.git modules/callback
+
+In the module tab of the admin panel install and (important) __configure__.
+
+
 FR
 ===
 
