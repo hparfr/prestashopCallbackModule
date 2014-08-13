@@ -14,7 +14,7 @@ class Callback extends Module {
 		$this->author = 'http://hpar.fr';
 		$this->need_instance = 0;
 
-		$this->callbackUrl = Configuration::updateValue('hpar_callback_url');
+		$this->callbackUrl = Configuration::get('hpar_callback_url');
 		parent::__construct();
 
 		$this->displayName = $this->l('Callback after order');
@@ -161,7 +161,7 @@ class Callback extends Module {
 		}
 			
 		//things about the products
-		$copyFields = array('id','id_product','cart_quantity', 'name', 'price','id_address_delivery','id_customization');
+		$copyFields = array('id_product','cart_quantity', 'name', 'price','id_address_delivery','id_customization', 'reference');
 		foreach ($params['order']->product_list as $product) {
 			$prod = []; //temp array
 			foreach ($copyFields as $field) {
