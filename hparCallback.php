@@ -8,7 +8,7 @@ class hparCallback extends Module {
 	public function __construct() {
 		$this->name = 'hparCallback';
 		$this->tab = 'Callback after order';
-		$this->version = 1.1;
+		$this->version = 1.2;
 		$this->author = 'http://hpar.fr';
 		$this->need_instance = 0;
 
