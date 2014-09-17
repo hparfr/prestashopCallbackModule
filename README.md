@@ -19,8 +19,11 @@ Installation
 	cd prestashop
 	git submodule add https://github.com/hparfr/prestashopCallbackModule.git modules/callback
 
-In the module tab of the admin panel install and (important) __configure__.
+In settings.config.php, add the define:
 
+```php
+define('_HPAR_CALLBACK_URL_', 'http://callbackurl');
+```
 
 FR
 ===
