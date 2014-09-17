@@ -17,7 +17,7 @@ Installation
 ====
 
 	cd prestashop
-	git submodule add https://github.com/hparfr/prestashopCallbackModule.git modules/callback
+	git submodule add https://github.com/hparfr/prestashopCallbackModule.git modules/hparCallback
 
 In settings.config.php, add the define:
 

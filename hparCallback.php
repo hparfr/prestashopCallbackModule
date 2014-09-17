@@ -3,12 +3,10 @@
 if (!defined('_PS_VERSION_'))
   exit;
 
-class Callback extends Module {
-
-	protected $callbackUrl;
+class hparCallback extends Module {
 
 	public function __construct() {
-		$this->name = 'callback';
+		$this->name = 'hparCallback';
 		$this->tab = 'Callback after order';
 		$this->version = 1.1;
 		$this->author = 'http://hpar.fr';
